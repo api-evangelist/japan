@@ -1,19 +1,43 @@
 aid: japan
-name: Japan
-description: Japan is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/japan.png
+name: Fullcourt
+description: Fullcourt is an ecommerce helpdesk built for direct-to-consumer (DTC) Shopify
+  brands, consolidating email, Shopify, Facebook, Instagram, and TikTok into a single fast
+  support inbox with live chat, a self-service knowledge base, AI-assisted agent and customer
+  replies, keyboard-driven navigation (command-K search), and automation and triage rules.
+  It was surfaced as a 500 Global portfolio company and added to the API Evangelist network
+  under the stub slug "japan"; enrichment found a Webflow marketing site plus a hosted web
+  app but no public developer API, docs, SDKs, or MCP surface.
 url: https://raw.githubusercontent.com/api-evangelist/japan/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
+x-aka: japan (stub label from portfolio scrape); real company is Fullcourt (fullcourt.co)
 x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Customer Support
+- Helpdesk
+- Ecommerce
+- Shopify
+- DTC
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +45,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/japan-domain-security.yml
 - type: Website
   url: https://fullcourt.co
+- type: Blog
+  url: https://www.fullcourt.co/blog
+- type: SignUp
+  url: https://app.fullcourt.co/signup
+- type: Login
+  url: https://app.fullcourt.co/signin
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
