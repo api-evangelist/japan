@@ -43,7 +43,7 @@ created: '2026-07-17'
 modified: '2026-07-19'
 tags:
 - Company
-- Customer-Support
+- Customer Support
 - Help Desk
 - E-Commerce
 - Shopify
@@ -57,6 +57,7 @@ tags_raw:
 - Shopify
 - DTC
 - SaaS
+- Customer-Support
 apis: []
 maintainers:
 - FN: Kin Lane
