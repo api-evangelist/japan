@@ -1,0 +1,18 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/japan/integrations
+- https://zapier.com/apps/fullcourt/integrations
+- https://n8n.io/integrations/japan/
+- https://composio.dev/toolkits/japan
+- https://monid.ai/tools/japan
+checked:
+- https://composio.dev/toolkits/japan
+- https://monid.ai/tools/japan
+- https://n8n.io/integrations/japan/
+- https://zapier.com/apps/fullcourt/integrations
+- https://zapier.com/apps/japan/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
